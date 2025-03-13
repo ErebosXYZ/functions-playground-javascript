@@ -14,13 +14,12 @@ function rollDice() {
 
 // Tu código a partir de aquí
 
-let dado1 = rollDice()
-let dado2 = rollDice()
-let suma = dado1 + dado2
+let dice1 = rollDice()
+let dice2 = rollDice()
 
-console.log(`Valor dado 1: ${dado1}`)
-console.log(`Valor dado 2: ${dado2}`)
-console.log(`// La suma de los dos dados ha sido: ${suma}`)
+console.log(`Valor dado 1: ${dice1}`)
+console.log(`Valor dado 2: ${dice2}`)
+console.log(`// La suma de los dos dados ha sido: ${dice1 + dice2}`)
 
 
 // Valor dado 1:
